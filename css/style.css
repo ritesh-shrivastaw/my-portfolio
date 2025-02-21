@@ -185,7 +185,7 @@ section.about .social{
     display:flex;
 }
 section.about .social a{
-    background:var(--dark);
+    background:rgb(208, 205, 205);
     display:flex;
     align-items:center;
     justify-content:center;
@@ -202,6 +202,7 @@ section.about .social a{
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
+    text-decoration: none;
 }
 section.about .social a:hover{
     background:var(--primary);
@@ -509,10 +510,12 @@ footer .footer-logo{
 }
 footer .footer-socials a{
     margin-right:1rem;
+    color: rgba(255, 255, 255, 0.4);
 }
 footer .footer-socials{
     margin-bottom:3rem;
     margin-right:-1rem;
+    font-size: 30px;
 }
 footer .copyright{
     color:var(--ternary);
