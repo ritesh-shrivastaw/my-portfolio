@@ -13,9 +13,12 @@
         flex-direction: column;
         text-align: center;
         padding: 2rem 1rem;
+        
     }
     .hero .left img {
         width: 220px;
+        margin-left: -133px;
+        
     }
     .hero .right {
         position: static;
