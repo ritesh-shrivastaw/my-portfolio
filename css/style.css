@@ -8,6 +8,52 @@
     --secondary:#070606;
 }
 
+@media (max-width: 480px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+    .hero .left img {
+        width: 220px;
+    }
+    .hero .right {
+        position: static;
+        padding: 1rem;
+    }
+    .hero .right h1 {
+        font-size: 2.5rem;
+    }
+    section.about .about-me-img {
+        height: 280px;
+    }
+    section.about .right {
+        text-align: center;
+    }
+    section.services .card-wrapper {
+        grid-template-columns: 1fr;
+        grid-row-gap: 3rem;
+    }
+    section.work .card-wrapper {
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+    section.blog .card-wrapper {
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+    }
+    section.contact .input-wrap {
+        grid-template-columns: 1fr;
+    }
+    section.contact .btn-wrapper {
+        text-align: center;
+    }
+    footer {
+        padding: 3rem 1rem;
+    }
+}
+
+
 body{
     font-family:'Poppins',sans-serif;
 }
